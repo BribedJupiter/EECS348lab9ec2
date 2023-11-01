@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    color: rgb(206, 172, 33);
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: silver;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: silver;
+}
+
+ul li {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    list-style-position: outside;
+}

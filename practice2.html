@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="part2.js" type="text/javascript"></script>
+        <title>EECS 348 Lab 7: Part 2</title>
+    </head>
+    <body>
+        <h1>
+            EECS 348 Lab 7: Part 2
+        </h1>
+        <style>
+            #to_alter {
+                border-style: solid;
+                border-width: 5px;
+            }
+        </style>
+        <div id="to_alter">
+            The paragraph to alter. 3 May. Bistritz. 
+            Left Munich at 8:35 P.M, on 1st May, 
+            arriving at Vienna early next morning; 
+            should have arrived at 6:46, 
+            but train was an hour late. Buda-Pesth seems a 
+            wonderful place, from the glimpse which I got of 
+            it from the train and the little I could walk 
+            through the streets. I feared to go very far 
+            from the station, as we had arrived late and 
+            would start as near the correct time as possible.
+        </div>
+        <p>
+            Border Red (0-255): <br>
+            <input type="text" id="border_red" value> <br>
+            Border Green (0-255): <br>
+            <input type="text" id="border_green" value> <br>
+            Border Blue (0-255): <br>
+            <input type="text" id="border_blue" value> <br>
+            Border Width: <br>
+            <input type="text" id="border_width" value> <br>
+        </p>
+        <p>
+            Background Red (0-255): <br>
+            <input type="text" id="background_red" value> <br>
+            Background Green (0-255): <br>
+            <input type="text" id="background_green" value> <br>
+            Background Blue (0-255): <br>
+            <input type="text" id="background_blue" value> <br>
+        </p>
+        <p>
+            <button onclick="apply_paragraph_changes()">Apply changes</button>
+        </p>
+    </body>
+</html>
